@@ -1,0 +1,12 @@
+<svg width="340" height="340" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+   <stop offset="0%" stop-color="#00e8ff"/>
+   <stop offset="100%" stop-color="#ff00f7"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <path fill="url(#grad1)" d="m47.29483,333.90402c-47.15447,-27.54537 -48.39701,-300.84691 -1.49104,-327.96185c46.90596,-27.11491 282.67837,110.61189 282.92685,165.2722c0.24851,54.66031 -234.28133,190.235 -281.43581,162.68965" stroke-width="3" id="svg_1" stroke="null"/>
+ </g>
+</svg>
