@@ -12,9 +12,9 @@ interface MainNavProps {
 export function MainNav({ items }: MainNavProps) {
   return (
     <div className="flex gap-6 md:gap-10 min-h-16">
-      {/* <Link href="/" className="flex items-center space-x-2">
-        <Image src={'/lg-logo-3.png'} priority={true} alt="LG" width={214} height={64}></Image>
-      </Link> */}
+      <Link href="/" className="flex items-center space-x-2">
+        <Image src={'/lg-logo-2.png'} priority={true} alt="LG" width={196} height={52}></Image>
+      </Link>
       {items?.length ? (
         <nav className="flex gap-6">
           {items?.map(
