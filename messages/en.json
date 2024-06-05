@@ -1,9 +1,8 @@
 {
   "Home": {
     "title": "AI-driven<br/>personalized<br/>practice platform",
-    "subTitle": "Targeting Chinese language learners in overseas regions."
-  },
-  "Login": {
+    "subTitle": "Targeting Chinese language learners in overseas regions.",
+    "start": "Start using immediately",
     "login": "Log in"
   }
 }

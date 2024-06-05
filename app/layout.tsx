@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
   icons: {
-    icon: "/lg-logo-1.png",
-    shortcut: "/lg-logo-1.png",
-    apple: "/lg-logo-4.png",
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
   },
 }
 
@@ -38,7 +38,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
   const messages = await getMessages();
   return (
     <ClerkProvider>
-      <html lang={locale}>
+      <html lang={locale} suppressHydrationWarning={true}>
         <head />
         <body
           className={cn(

@@ -13,7 +13,7 @@ export function MainNav({ items }: MainNavProps) {
   return (
     <div className="flex gap-6 md:gap-10 min-h-16">
       <Link href="/" className="flex items-center space-x-2">
-        <Image src={'/lg-logo-2.png'} priority={true} alt="LG" width={196} height={52}></Image>
+        <Image src={'/logo.png'} priority={true} alt="LG" width={196} height={52}></Image>
       </Link>
       {items?.length ? (
         <nav className="flex gap-6">

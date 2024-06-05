@@ -1,8 +1,19 @@
+import { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server'
+
+import { supabase } from "@/lib/supabase";
+
+export async function POST(request: NextRequest) {
+
+  const req = await request.json()
+
+  console.log('req------->', req)
+
+  const { data, error } = await supabase
+    .from('users')
+    .update({ role: req.role })
+    .eq('user_id', req.uid)
+    .select()  
  
-export async function GET() {
-  const res = await fetch('https://jsonplaceholder.typicode.com/posts')
-  const data = await res.json()
- 
-  return NextResponse.json({ data })
+  return NextResponse.json({ data, error })
 }

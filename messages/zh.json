@@ -1,9 +1,8 @@
 {
   "Home": {
-    "title": "AI 驱动的<br/>个性化练习平台",
-    "subTitle": "面向海外地区汉语学习者"
-  },
-  "Login": {
+    "title": "AI 驱动的<br/>汉语练习平台",
+    "subTitle": "面向海外地区汉语学习者",
+    "start": "立即开始使用",
     "login": "登录"
   }
 }
